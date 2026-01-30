@@ -1,0 +1,27 @@
+# Exclude all .md files except main README.md
+CHECKLIST.md
+IS_proposal.md
+extension/README.md
+extension/icons/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Model files
+*.pkl
+
+# Data files
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
