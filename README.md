@@ -135,20 +135,14 @@ SafeBrowse-AI is a machine learning-based phishing detection system designed for
 - Chrome or Edge browser
 - Dataset: `phishing_and_benign_urls.csv`
 
-### Step 1: Clone Repository
 
-```bash
-git clone https://github.com/yourusername/safebrowse-ai.git
-cd safebrowse-ai
-```
-
-### Step 2: Install Python Dependencies
+### Install Python Dependencies
 
 ```bash
 pip install pandas numpy scikit-learn lightgbm joblib tldextract
 ```
 
-### Step 3: Prepare Dataset
+### Prepare Dataset
 
 Place your dataset as `data/url_phish.csv` with columns:
 - `url` - Full URL string
@@ -371,37 +365,18 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **LightGBM** - Microsoft Research
 - **tldextract** - John Kurkowski
 - **scikit-learn** - scikit-learn developers
 - Chrome Extension API documentation
 
----
-
-## 📧 Contact
-
-**Project Maintainer:** [Your Name]
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-
 **Project Link:** [https://github.com/yourusername/safebrowse-ai](https://github.com/yourusername/safebrowse-ai)
 
 ---
 
-## 📊 Project Status
-
-🚀 **Active Development** - Currently implementing browser extension integration
-
-**Latest Version:** 1.0.0  
-**Last Updated:** December 2025
-
----
-
 <div align="center">
-
-**Made with ❤️ for safer browsing**
 
 [⬆ Back to Top](#-safebrowse-ai)
 
