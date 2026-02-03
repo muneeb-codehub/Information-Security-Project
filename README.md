@@ -372,9 +372,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 - **scikit-learn** - scikit-learn developers
 - Chrome Extension API documentation
 
-**Project Link:** [https://github.com/yourusername/safebrowse-ai](https://github.com/yourusername/safebrowse-ai)
-
----
 
 <div align="center">
 
