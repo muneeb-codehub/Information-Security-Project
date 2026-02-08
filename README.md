@@ -42,7 +42,7 @@ SafeBrowse-AI is a machine learning-based phishing detection system designed for
 
 ### Core Detection Capabilities
 
-- ✅ **17 Lexical Features** extracted from URLs
+-  **17 Lexical Features** extracted from URLs
   - Length metrics (URL, host, path, query)
   - Character frequency analysis
   - IP address detection
@@ -50,12 +50,12 @@ SafeBrowse-AI is a machine learning-based phishing detection system designed for
   - TLD/subdomain parsing
   - Protocol analysis (HTTPS)
 
-- ✅ **LightGBM Classifier**
+-  **LightGBM Classifier**
   - Fast gradient boosting
   - High accuracy with low latency
   - Exportable to JSON for browser use
 
-- ✅ **Real-time Browser Extension**
+-  **Real-time Browser Extension**
   - Automatic tab monitoring
   - Instant notifications for suspicious sites
   - Visual risk score display
@@ -111,7 +111,7 @@ SafeBrowse-AI is a machine learning-based phishing detection system designed for
 2. **Evaluation** (`evaluate.py`)
    - Tests model accuracy
    - Generates classification report
-   - Produces confusion matrix
+   - Produces a confusion matrix
 
 3. **Model Export** (`export_model.py`)
    - Converts model to JSON
@@ -344,24 +344,6 @@ Validates that feature extraction works correctly on sample URLs.
 - Adversarial robustness testing
 - Cross-browser compatibility (Firefox, Safari)
 - Mobile browser support
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
 
